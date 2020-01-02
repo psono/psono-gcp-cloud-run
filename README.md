@@ -48,6 +48,13 @@ Use your provider to configure the necessary CNAME record
 
 Pick one of the supported email providers in the [Documentation](https://doc.psono.com/mydoc_configuration_email_amazon_ses.html) and configure the environment variables accordingly.
 
+9) [Deploy new revision](https://console.cloud.google.com/run)
+
+Click on the service and then at the top click "Deploy new revision"
+
+- Adjust the Port to be 80
+- Add the necessary environment variables for the email provider
+
 # LICENSE
 
 Visit the [License.md](/LICENSE.md) for more details
