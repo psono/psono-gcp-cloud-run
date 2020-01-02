@@ -24,6 +24,13 @@
       "PSONO_DATABASES_DEFAULT_NAME": {
           "description": "The database name.",
           "value": "postgres"
+      },
+      "PSONO_DATABASES_DEFAULT_USER": {
+          "description": "The user for the database.",
+          "value": "postgres"
+      },
+      "PSONO_DATABASES_DEFAULT_PASSWORD": {
+          "description": "The password for the database."
       }
   }
 }
