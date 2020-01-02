@@ -30,15 +30,15 @@ You need a couple of parameters that you can generate with the following docker 
 
 4) Create a [Cloud Postgres DB](https://console.cloud.google.com/sql/instances)
 
-Remember the name of the instance
+Remember the name of the instance. It's something like PROJECT_NAME:REGION:DBNAME
 
 5) Click [Run on Google Cloud](https://deploy.cloud.run?git_repo=https://github.com/psono/psono-gcp-cloud-run.git)
 
-If you receive a timeout you can start the provisioning
+If you receive a timeout you can start the provisioning manually with this command:
 
     cloudshell_open --repo_url "https://github.com/psono/psono-gcp-cloud-run.git" --page "editor"
 
-6) Answer questions all the questions
+6) Answer all the questions
 
 7) Add [Domain Mapping](https://console.cloud.google.com/run/domains)
 
